@@ -1,0 +1,54 @@
+
+# Mac
+.DS_Store
+
+# Xcode
+
+# ビルドのカスタムscheme
+xcuserdata/
+*/xcuserdata/*
+*.xcuserstate
+
+# Xcodeのプライベート設定
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# 4つのデフォルト設定ファイルは無視しない
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Xcodeのビルド生成物
+build/
+DerivedData/
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# スワップファイル
+.swp
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+
+# bundler
+vendor/bundle
+.bundle
+
+# Firebase
+firestore-debug.log
+ui-debug.log
+
+# node
+node_modules
+
+# VSCode
+.vscode/
